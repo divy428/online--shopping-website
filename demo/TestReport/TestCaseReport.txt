@@ -1,0 +1,31 @@
+ONLINE SHOPPING WEBSITE — SELENIUM TEST REPORT
+
+Project Name: Online Shopping Website
+Testing Tool: Selenium WebDriver
+Programming Language: Java
+Build Tool: Maven
+Browser: Google Chrome
+
+TEST CASE 1: Valid Login
+
+- Objective: Verify login with valid credentials.
+- Expected Result: User should log in successfully.
+- Actual Result: Home page opened successfully.
+- Status: PASS
+
+TEST CASE 2: Invalid Login
+
+- Objective: Verify login with an incorrect password.
+- Expected Result: Website should reject invalid credentials.
+- Actual Result: Incorrect password was rejected.
+- Status: PASS
+
+TEST CASE 3: Empty Login
+
+- Objective: Verify login when email and password are empty.
+- Expected Result: Browser should prevent submission of empty required fields.
+- Actual Result: Browser displayed “Please fill out this field”.
+- Status: PASS
+
+CONCLUSION
+The three login-related test cases were executed successfully. The results indicate that valid login works and invalid or empty login submissions are blocked.
